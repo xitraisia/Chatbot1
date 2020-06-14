@@ -1,0 +1,27 @@
+{
+  "name": "mybot",
+  "version": "1.0.0",
+  "description": "chatbot for portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "hello": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xitraisia/Chatbot.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "daniele Tenga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xitraisia/Chatbot/issues"
+  },
+  "homepage": "https://github.com/xitraisia/Chatbot#readme",
+  "dependencies": {
+    "newbot": "^0.7.1",
+    "newbot-cli": "^3.1.0",
+    "newbot-formats": "^1.7.1"
+  }
+}

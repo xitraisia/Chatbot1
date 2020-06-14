@@ -1,0 +1,31 @@
+@Intent('hello')
+hello() {
+    > Hello! Welcome to my website. Is there anything I can help you with?
+
+    Prompt()
+    ---
+
+    @Format('quickReplies', ['project'])
+    > Ok, here is the project page
+    @Format('quickReplies', ['about'])
+    > Ok, here is the about page
+}
+
+@Intent('about')
+about() {
+    > Ok, here is the about page
+}
+
+@Intent('project')
+project() {
+    > Ok, here is the project page
+}
+
+@Event('nothing')
+nothing() {
+    ---
+    > I don't know
+    > What? 
+    ---
+}
+

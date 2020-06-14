@@ -1,0 +1,10 @@
+@Intent('hello', [
+    'Hey',
+    'Hello',
+    'Good afternoon',
+    'Good morning',
+    'Hi'
+])
+hello() {
+    > Hey!  Welcome to my website! Is there anything I can help you with?
+}
