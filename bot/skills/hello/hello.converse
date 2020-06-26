@@ -6,5 +6,5 @@
     'Hi'
 ])
 hello() {
-    > Hey!  Welcome to my website! Is there anything I can help you with?
+    > Hey!  
 }
