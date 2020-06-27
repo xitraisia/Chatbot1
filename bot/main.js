@@ -3,7 +3,7 @@ import code from './main.converse'
 import helloSkill from './skills/hello/hello'
 import project from './skills/project/project'
 import about from './skills/about/about' 
-import joke from './skills/joke/joke'
+import jokeSkill from './skills/joke/joke'
 
 export default {
     code,
@@ -12,6 +12,6 @@ export default {
         helloSkill,
         project,
         about,
-        joke
+        jokeSkill
     }
 }

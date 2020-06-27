@@ -13,9 +13,12 @@ project() {
     > Ok, here is the project page
 }
 
-@Intent('joke')
+
+@Event('start')
 joke() {
-    > What does a baby computer call it's father? Data.
+    @Format('quickReplies' ['Tell a joke'])
+    > I can tell you a joke!
+    ---
     > My email password has been hacked. That's the third time I've had to rename the cat.          
     > What does a baby computer call it's father? Data.
     > My New Year's resolution is 4K.
@@ -25,7 +28,8 @@ joke() {
     > There are 10 types of people in the world: those who understand binary, and those who don't.
     > Instagram is just Twitter for people who go outside
     > Human: What do we want?! Computer: Natural language processing! Human: When do we want it?! Computer: When do we want what?
-    > Is your name Wi-Fi? Because I'm feeling a connection
+    > Is your name Wi-Fi? Because I'm feeling a connection 
+    ---
 }
 
 @Event('nothing')

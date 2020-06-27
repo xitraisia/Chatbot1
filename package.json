@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/xitraisia/Chatbot#readme",
   "dependencies": {
+    "languages": "^0.1.3",
     "newbot": "^0.7.1",
     "newbot-cli": "^3.1.0",
     "newbot-formats": "^1.7.1"
